@@ -1,4 +1,5 @@
 
+html{ scroll-behavior: smooth;}
 body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
      background-size: contain;
      background-repeat: repeat;
