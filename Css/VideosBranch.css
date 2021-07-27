@@ -1,0 +1,64 @@
+
+body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+
+    }
+
+  nav ul {display: flex; flex-wrap: wrap; height: 25px; }
+ ul li {display: inline-block; text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;}
+
+ .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s; }
+ .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;}
+ .navliBlue a,.navliRed a {color: white; text-decoration:} 
+
+
+ .navliRed:hover,.navliBlue:hover {border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
+ 
+    #BarcaLogoImg{transition: ease-in-out 3s;}
+     #BarcaLogoImg:hover{transform: rotateY(360deg);}
+
+     #VideosSection{display: flex ; flex-direction: row; flex-wrap: wrap;
+        justify-content: center; 
+        width: 100%; }
+
+
+     #BarcaVideosHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: rgb(1, 1, 117);background-color: rgba(255, 255, 255, 0.562);}
+
+     .VideosArea  {background-color: rgba(255, 235, 205, 0.37);  ;align-content: center;justify-content: center;
+    font-size: 18px; text-align: center; width:75%; height: 50%;
+     transition: 1s ease-in-out; background-image: url(./Media/images/FansWithFlags.jpg); filter: contrast(300%);}
+
+     .VideosArea:hover{transform: scale(1.03); font-size: 28px; width: 85%;filter: contrast(100%); height: 100%; position: relative;}
+     
+
+     #WelcomeTextVideos{font-weight: bolder;color: white;background-color: black; height: 30px;}
+
+     .BarcaVideos{width: 100%;  height: 100%;  display: flex; flex-direction: row; justify-content: space-around;}
+     .BarcaVideo{width: 30%;}
+     .BarcaVideo p{color: white;background-color: rgba(0, 0, 0);}
+
+
+
+     #FotterNav1{position: relative;}
+     #FotterNav2{position: relative;}
+     #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
+        justify-content: space-around;background-color: red; height: 60px; pos}
+        #FotterNav2{position: relative; bottom: 13.5px;}
+        #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
+              justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
+        
+              .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-right: solid black 2px;border-left: solid black 2px; transition: 1s;}
+        
+              .Bottomnav2{flex-basis: 30%;font-weight: bolder; border-right: solid black 2px; border-left: solid black 2px; transition: 1s;}
+         
+              .Bottomnav2 a{color: white;}
+                  
+              .Footer1Img{position: relative; top: 11px;transition: 1s;}
+              .Footer2Img{position: relative; top: 10px;transition: 1s;}
+             
+              .Bottomnav1:hover{transform: scale(1.1);}
+              .Bottomnav2:hover{transform: scale(1.1);}
+              
+               
+       

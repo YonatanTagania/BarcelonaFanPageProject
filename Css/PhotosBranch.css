@@ -1,0 +1,80 @@
+
+body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+
+    }
+
+  nav ul {display: flex; flex-wrap: wrap; height: 25px; }
+ ul li {display: inline-block; text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;}
+
+ .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s; }
+ .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;}
+ .navliBlue a,.navliRed a {color: white; text-decoration: none;} 
+
+
+ .navliRed:hover,.navliBlue:hover {border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
+ 
+    #BarcaLogoImg{transition: ease-in-out 3s;}
+     #BarcaLogoImg:hover{transform: rotateY(360deg);}
+     
+       
+   
+  #PhotosSection{ display: flex ; flex-direction: column; flex-wrap: wrap;
+    align-content: center; 
+    width: 100%; height: 100%; 
+    position: relative;
+   }
+
+   .BarcaPhotosNo1 ,.BarcaPhotosNo2 {animation-name: SlideIn; animation-duration:1s; animation-timing-function: ease-in-out;}
+@keyframes SlideIn {
+    from {filter: blur(500px);width: 1%; height: 1%;}
+    to {filter: blur(0);width: 100%;height: 1%;}
+}
+
+
+#BarcaPhotosHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: rgb(1, 1, 117);background-color: rgba(255, 255, 255, 0.562);}
+   
+
+
+.ImagesArea  {background-color: rgba(255, 235, 205, 0.37);  ;align-content: center;justify-content: center;
+    font-size: 18px; text-align: center; width: 90%; height: 100%;
+     background-image: url(./Media/images/FansWithFlags.jpg); filter: saturate(50%); overflow: hidden;transition: 1s ease-in;position: relative;}
+     .ImagesArea p{background-color: black; color: white;}
+
+     
+     .ImagesArea:hover{ font-size: 18px;filter: saturate(100%);height: 100%;position: relative; width: 93%;}
+     
+
+      #WelcomeTextPhotos{font-weight: bolder;color: white;background-color: black; height: 30px; animation-duration: 5s;}
+
+      .BarcaPhotosNo1{display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: space-around; align-content:center ; width: 100%;}
+      .SlideInImg1 {width: 32.27%;border:5px solid black; margin-bottom: 5px  ;}
+      
+      .BarcaPhotosNo2{ display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: space-around; align-content:center ; width: 100%;}
+      .SlideInImg2{width: 45%; border: solid 8px black; margin-bottom: 5px;transition: 1s ,width, ease-in-out;}
+      .TopImage{transition: 1s;}
+      .TopImage:hover{width: 452px;}
+      .BottomImage{transition: 1s;}
+      .BottomImage:hover{width: 630px;}
+   
+
+
+      #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
+        justify-content: space-around;background-color: red; height: 60px;}
+        #FotterNav2{position: relative; bottom: 13.5px;}
+        #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
+              justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
+        
+              .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-right: solid black 2px;border-left: solid black 2px; transition: 1s;}
+        
+              .Bottomnav2{flex-basis: 30%;font-weight: bolder; border-right: solid black 2px; border-left: solid black 2px; transition: 1s;}
+         
+              .Bottomnav2 a{color: white;}
+                  
+              .Footer1Img{position: relative; top: 11px;transition: 1s;}
+              .Footer2Img{position: relative; top: 10px;transition: 1s;}
+             
+              .Bottomnav1:hover{transform: scale(1.1);}
+              .Bottomnav2:hover{transform: scale(1.1);}
+      

@@ -1,0 +1,108 @@
+
+body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
+     background-size: contain;
+     background-repeat: repeat;
+
+     }
+
+   nav ul {display: flex; flex-wrap: wrap; height: 25px; }
+  ul li {display: inline-block; text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;}
+
+  .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s; }
+  .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;}
+  .navliBlue a,.navliRed a {color: white; text-decoration: none;} 
+
+
+  .navliRed:hover,.navliBlue:hover {border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
+  
+     #BarcaLogoImg{transition: ease-in-out 3s;}
+      #BarcaLogoImg:hover{transform: rotateZ(360deg);}
+      
+   
+  #OpeningSection{ display: flex ; flex-direction: column; flex-wrap: wrap;
+      align-content: center; 
+      width: 100%; height: 100%; transition: 1s linear;
+     }
+     
+ .PageWelcomeInfo  {position: relative ;background-color: rgba(255, 235, 205, 0.37);
+      font-size: 18px; text-align: center; width: 50%; 
+       transition: 1s ease-in-out; background-image: url(../Media/images/FansWithFlags.jpg);}
+ #BarcaFirstHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: rgb(1, 1, 117);background-color: rgba(255, 255, 255, 0.562);}
+#TeamPhotoP{font-size: 16px;}
+ .PageWelcomeInfo:hover{transform: scale(1.03); font-size: 22px; width: 70%; height: 100%;}
+ #WelcomeText{font-weight: bolder;color: white;background-color: black;}
+
+#TeamPhotoP{background-color: black;color: white;}
+ 
+ 
+ #BarcaTeamPhoto{position: absolute; animation-name: fadingphotos;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+      animation-delay: 10s;
+      animation-direction: alternate;
+     }
+     
+  
+  
+  
+  
+  @keyframes fadingphotos {
+      from {filter: opacity(1); 
+      
+    }
+    to {filter: opacity(0);
+    
+    }
+}
+
+#RegistrationSection{display: flex ; flex-direction: column; flex-wrap: wrap;
+     align-content: center; 
+height: 100%; transition: 1s linear;
+}
+
+
+#BarcaVipArticle{  align-content: center;justify-content: center;
+      font-size: 18px; text-align: center; height: 50%; height: 180px; overflow: hidden;
+       transition: 1s ease-in-out;
+       background-image: url(../Media/images/BarcelonaFans.jpg); filter: saturate(50%);}
+
+
+       #BarcaVipArticle:hover {transform: scale(1.03); font-size: 22px;filter: saturate(90%); height: 100%; position: relative;}
+
+       #HoverBackGroundArea {background-color: rgba(0, 0, 0, 0.5);}
+       #HoverBackGroundArea p{color: white; background-color: rgb(51, 48, 0); border: solid black 3px;}
+       #HoverBackGroundArea form label{color: white;background-color: rgb(0, 75, 10); border: black solid 3px;}
+      
+
+
+
+
+
+#RegistrationSection h3{font-family: 'Anton', sans-serif;background-color: rgba(0, 0, 0, 0.39); width: 100%; z-index: 1; color: white;}
+#BarcaStoryBox{line-height: 220px;}
+
+
+#BarcaSpan{color: red;}
+#VIPSpan{color: rgb(2, 2, 110);}
+
+
+#FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
+     justify-content: space-around;background-color: red; height: 60px;}
+     #FotterNav2{position: relative; bottom: 13.5px;}
+     #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
+           justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
+     
+           .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-right: solid black 2px;border-left: solid black 2px; transition: 1s;}
+     
+           .Bottomnav2{flex-basis: 30%;font-weight: bolder; border-right: solid black 2px; border-left: solid black 2px; transition: 1s;}
+      
+           .Bottomnav2 a{color: white;}
+               
+           .Footer1Img{position: relative; top: 11px;transition: 1s;}
+           .Footer2Img{position: relative; top: 10px;transition: 1s;}
+          
+           .Bottomnav1:hover{transform: scale(1.1);}
+           .Bottomnav2:hover{transform: scale(1.1);}
+           
+            
