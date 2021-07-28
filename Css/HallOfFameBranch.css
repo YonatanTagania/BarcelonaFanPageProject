@@ -15,45 +15,45 @@ width: 95%; height: 100%;
  .navliBlue{flex-basis: 23%; background: blue;color: white;transition: 1s; box-shadow: 2px 0px 13px 6px black;
  }
  .navliBlue a,.navliRed a {color: white; text-decoration: none;} 
- .navliRed:hover,.navliBlue:hover {border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
+ .navliRed:hover,.navliBlue:hover {transform: scale(1.1); text-decoration: underline;}
 
  .HOFNAVli1{flex-basis: 23%; background: blue;color: white;transition: 1s;  box-shadow: 2px 2px 13px 6px black;}
  .HOFNAVli2{flex-basis: 23%; background: red;color: white;transition: 1s; box-shadow: 2px 2px 13px 6px black;}
  .HOFNAVli1 a, .HOFNAVli2 a{color: white; text-decoration: none;}
- .HOFNAVli1:hover,.HOFNAVli2:hover{border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
+ .HOFNAVli1:hover,.HOFNAVli2:hover{transform: scale(1.1); text-decoration: underline;}
 
 #HallOfFameSection{ width: 100%; height: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;position: relative; right: 25px; }
 
 .GameSummary1{width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.64); display: flex; flex-direction: column; flex-wrap: wrap;align-items: center;
-  margin-bottom: 25px; border: black 10px solid; }
-.FirstH1{background-color: red; text-align: center; font-size: 35px;transition: 1s ease-in-out; height: 37px;}
+  margin-bottom: 25px;  }
+.FirstH1{background:linear-gradient(to left,blue,red); text-align: center; font-size: 35px;transition: 1s ease-in-out; height: 37px;}
 .BarcaScore1{color: rgb(2, 2, 123);}
 .ScoreMark1{color: white;}
 .OpponnentScore1{color: white;}
-.GameSummary1 p{font-size: 22px; font-weight: bolder;width: 70%;background-color: rgb(2, 2, 123);; text-align: center; color: white;} 
+.GameSummary1 p{font-size: 22px; font-weight: bolder;width: 70%;background: linear-gradient(to right,blue,red); text-align: center; color: white; margin-bottom: -2px;} 
 
-.GameSummary2{width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.64);display: flex; flex-direction: column; flex-wrap: wrap;align-items: center; margin-bottom: 25px;border: black solid 10px;}
- .SecondH1 {background-color: rgb(2, 2, 123);font-size: 35px;}
+.GameSummary2{width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.64);display: flex; flex-direction: column; flex-wrap: wrap;align-items: center; margin-bottom: 25px;}
+ .SecondH1 {background:linear-gradient(to left,red,blue);font-size: 35px;}
  .BarcaScore2{color: red;}
  .ScoreMark2{color: white;}
  .OpponnentScore2{color: white;}
-.GameSummary2 p{font-size: 22px; font-weight: bolder ; width: 70%; background-color: red; text-align: center;}
+.GameSummary2 p{font-size: 22px; font-weight: bolder ; width: 70%; background:linear-gradient(to right,red,blue); text-align: center;margin-bottom: -2px;color: white;}
 
 
 
 
 
 #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
-  justify-content: space-around;background-color: red; height: 60px;}
-  #FotterNav1{filter: saturate(4);}
-  #FotterNav2{position: relative; bottom: 13.5px;filter: saturate(4);}
+  justify-content: space-around;background-color: grey; height: 60px;}
+  #FotterNav1{filter: saturate(4); position: relative; left: 25px;}
+  #FotterNav2{position: relative; bottom: 13.5px;filter: saturate(4);left: 25px;}
   #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
-        justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
+        justify-content: space-around; background-color: grey; height: 60px; align-items: center;}
   
      
-        .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-radius: 15px ;border-left: 3.5px solid black ; transition: 1s; border-right: solid black 3.5px; border-top: 3.5px solid black; border-bottom:  solid black 3.5px;}
+        .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-radius: 15px ;border-left: 3.5px solid red ; transition: 1s; border-right: solid blue 3.5px; border-top: 3.5px solid red; border-bottom:  solid blue 3.5px;}
         
-        .Bottomnav2{flex-basis: 30%;font-weight: bolder;  border-radius: 15px ;border-left: 5px solid black ; transition: 1s; border-right: solid black 5px; border-top: 5px solid black; border-bottom:  solid black 5px;}
+        .Bottomnav2{flex-basis: 30%;font-weight: bolder;  border-radius: 15px ;border-left: 5px solid blue; transition: 1s; border-right: solid red 5px; border-top: 5px solid blue; border-bottom:  solid red 5px;}
    
             
         .Footer1Img{position: relative; top: 11px;transition: 1s;}

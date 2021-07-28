@@ -36,7 +36,7 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
 }
 
 
-#BarcaPhotosHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: rgb(1, 1, 117);background-color: rgba(255, 255, 255, 0.562);}
+#BarcaPhotosHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: white;background:linear-gradient(to left,blue,red);}
    
 
 
@@ -53,26 +53,28 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
 
       .BarcaPhotosNo1{display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: space-around; align-content:center ; width: 100%;}
       .SlideInImg1 {width: 32.27%;border:5px solid black; margin-bottom: 5px  ;}
-      
+      .SlideInImg1 p{margin-bottom: -3px;}
       .BarcaPhotosNo2{ display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: space-around; align-content:center ; width: 100%;}
       .SlideInImg2{width: 45%; border: solid 8px black; margin-bottom: 5px;transition: 1s ease-in-out;}
+     .SlideInImg2 p{margin-bottom: -2px;}
       .TopImage{transition: 1s;}
       .TopImage:hover{width: 452px;}
       .BottomImage{transition: 1s;}
-      .BottomImage:hover{width: 630px;}
+      .BottomImage:hover{width: 630px; }
    
 
 
+
       #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
-        justify-content: space-around;background-color: red; height: 60px;}
-        #fotterNav1{filter: saturate(4);}
-        #FotterNav2{position: relative; bottom: 13.5px;filter: saturate(4);}
+        justify-content: space-around;background-color: grey; height: 60px;}
+        #FotterNav1{filter: saturate(4);}
+        #FotterNav2{position: relative; bottom: 13.5px; filter: saturate(4);}
         #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
-              justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
+              justify-content: space-around; background-color: grey; height: 60px; align-items: center;}
         
-              .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-radius: 15px ;border-left: 3.5px solid black ; transition: 1s; border-right: solid black 3.5px; border-top: 3.5px solid black; border-bottom:  solid black 3.5px;}
-        
-              .Bottomnav2{flex-basis: 30%;font-weight: bolder;  border-radius: 15px ;border-left: 5px solid black ; transition: 1s; border-right: solid black 5px; border-top: 5px solid black; border-bottom:  solid black 5px;}
+              .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-radius: 15px ;border-left: 3.5px solid red ; transition: 1s; border-right: solid blue 3.5px; border-top: 3.5px solid red; border-bottom:  solid blue 3.5px;}
+           
+              .Bottomnav2{flex-basis: 30%;font-weight: bolder;  border-radius: 15px ;border-left: 5px solid blue; transition: 1s; border-right: solid red 5px; border-top: 5px solid blue; border-bottom:  solid red 5px;}
          
                   
               .Footer1Img{position: relative; top: 11px;transition: 1s;}
