@@ -87,6 +87,18 @@ height: 100%; transition: 1s linear;
 #BarcaSpan{color: red;}
 #VIPSpan{color: rgb(2, 2, 110);}
 
+#RegisterUp{text-align: center; font-size: 130%;color: white ;
+     background-image: url(../Media/images/RegisterArrowBG.png); 
+     width: 150px;position: relative;right: 670px;
+animation-name: RegisterAbove; animation-direction: alternate; animation-iteration-count: infinite; animation-duration: 3s; animation-timing-function: ease-in-out;}
+
+@keyframes RegisterAbove {
+     0%{transform: scale(0.5,0.5);}
+
+     100%{transform: scale(1.5,1.5);}
+     
+}
+
 
 #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
      justify-content: space-around;background-color: red; height: 60px;}
