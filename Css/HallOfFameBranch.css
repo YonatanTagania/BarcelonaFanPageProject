@@ -10,15 +10,15 @@ width: 95%; height: 100%;
   nav ul {display: flex; flex-wrap: wrap; height: 25px;position: relative; right: 60px; }
  ul li {display: inline-block; text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;}
 
- .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s;    box-shadow: 2px 2px 13px 6px black;
+ .navliRed{flex-basis: 23%; background: red;color: white;transition: 1s; box-shadow: 2px 2px 13px 6px black;
  }
- .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;    box-shadow: 2px 2px 13px 6px black;
+ .navliBlue{flex-basis: 23%; background: blue;color: white;transition: 1s; box-shadow: 2px 2px 13px 6px black;
  }
  .navliBlue a,.navliRed a {color: white; text-decoration: none;} 
  .navliRed:hover,.navliBlue:hover {border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
 
- .HOFNAVli1{flex-basis: 23%; background: red;color: white;transition: 1s; }
- .HOFNAVli2{flex-basis: 23%; background: rgb(2, 2, 123);;color: white;transition: 1s;}
+ .HOFNAVli1{flex-basis: 23%; background: blue;color: white;transition: 1s;  box-shadow: 2px 2px 13px 6px black;}
+ .HOFNAVli2{flex-basis: 23%; background: red;color: white;transition: 1s; box-shadow: 2px 2px 13px 6px black;}
  .HOFNAVli1 a, .HOFNAVli2 a{color: white; text-decoration: none;}
  .HOFNAVli1:hover,.HOFNAVli2:hover{border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
 
@@ -64,7 +64,7 @@ width: 95%; height: 100%;
         .Bottomnav2:hover{transform: scale(1.1);}
 
 
-        @media screen and (min-width:0px) and (max-width:413px){
+        @media screen and (min-width:0px) and (max-width:426px){
           
  nav ul {width: 121%; position: relative; right: -20px;}
  #MainNav{position: relative; right: 15px;}
@@ -85,7 +85,7 @@ width: 95%; height: 100%;
       
 
 
-        @media screen  and (min-width:414px) and (max-width:768px){
+        @media screen  and (min-width:426px) and (max-width:768px){
           
           #MainNav nav ul, #HallOfFameNav nav ul {width: 100%;}
           #HallOfFameSection{width: 100%; position: relative; right: 50px;}
