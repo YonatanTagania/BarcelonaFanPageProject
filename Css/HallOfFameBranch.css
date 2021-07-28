@@ -12,7 +12,7 @@ width: 95%; height: 100%;
 
  .navliRed{flex-basis: 23%; background: red;color: white;transition: 1s; box-shadow: 2px 2px 13px 6px black;
  }
- .navliBlue{flex-basis: 23%; background: blue;color: white;transition: 1s; box-shadow: 2px 2px 13px 6px black;
+ .navliBlue{flex-basis: 23%; background: blue;color: white;transition: 1s; box-shadow: 2px 0px 13px 6px black;
  }
  .navliBlue a,.navliRed a {color: white; text-decoration: none;} 
  .navliRed:hover,.navliBlue:hover {border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
@@ -27,7 +27,6 @@ width: 95%; height: 100%;
 .GameSummary1{width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.64); display: flex; flex-direction: column; flex-wrap: wrap;align-items: center;
   margin-bottom: 25px; border: black 10px solid; }
 .FirstH1{background-color: red; text-align: center; font-size: 35px;transition: 1s ease-in-out; height: 37px;}
-#PutaMadrid:hover{height: 100%;}
 .BarcaScore1{color: rgb(2, 2, 123);}
 .ScoreMark1{color: white;}
 .OpponnentScore1{color: white;}
@@ -51,11 +50,11 @@ width: 95%; height: 100%;
   #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
         justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
   
-        .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-right: solid black 2px;border-left: solid black 2px; transition: 1s;}
-  
-        .Bottomnav2{flex-basis: 30%;font-weight: bolder; border-right: solid black 2px; border-left: solid black 2px; transition: 1s;}
+     
+        .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-radius: 15px ;border-left: 3.5px solid black ; transition: 1s; border-right: solid black 3.5px; border-top: 3.5px solid black; border-bottom:  solid black 3.5px;}
+        
+        .Bottomnav2{flex-basis: 30%;font-weight: bolder;  border-radius: 15px ;border-left: 5px solid black ; transition: 1s; border-right: solid black 5px; border-top: 5px solid black; border-bottom:  solid black 5px;}
    
-        .Bottomnav2 a{color: white;}
             
         .Footer1Img{position: relative; top: 11px;transition: 1s;}
         .Footer2Img{position: relative; top: 10px;transition: 1s;}
@@ -66,9 +65,11 @@ width: 95%; height: 100%;
 
         @media screen and (min-width:0px) and (max-width:426px){
           
- nav ul {width: 121%; position: relative; right: -20px;}
- #MainNav{position: relative; right: 15px;}
- #HallOfFameSection{width: 100%; position: relative; right: 50px;}
+ nav ul {width: 100%; position: relative; right: -5px; }
+ header{display: flex; flex-direction: column; flex-shrink: 2; }
+ #HallOfFameNav li{font-size: 90%;}
+ #MainNav li{position: relative;}
+ #HallOfFameSection{width: 100%; }
  .GameSummary1{width: 100%;height: 100%;}          
  .GameSummary2{width: 100%; height: 100%;}
  .GameSummary1 img {width: 85%;}

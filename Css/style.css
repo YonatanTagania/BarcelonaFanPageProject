@@ -129,8 +129,8 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
          
                nav ul{width: 220%;}
                 main{position: relative; right: 60px; width: 95%;} 
-               .PageWelcomeInfo{width: 220%;position: relative; right: 53%; font-size: 280%;}
-               .PageWelcomeInfo:hover{width: 221%;}
+               .PageWelcomeInfo{width: 100%;position: relative; right: 53%; font-size: 280%;}
+               .PageWelcomeInfo:hover{width: 101%;}
                #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%;}
                #TeamPhotoP{font-size: 150%;}
                #BarcaVipArticle{position: relative; right: 53%;}
