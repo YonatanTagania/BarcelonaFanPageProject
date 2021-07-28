@@ -3,7 +3,7 @@ html{ scroll-behavior: smooth;}
 body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
      background-size: contain;
      background-repeat: repeat;
-
+width: 100%;
      }
 
    nav ul {display: flex; flex-wrap: wrap; height: 25px; }
@@ -88,14 +88,15 @@ height: 100%; transition: 1s linear;
 #VIPSpan{color: rgb(2, 2, 110);}
 
 #RegisterUp{text-align: center; font-size: 130%;color: white ;
-     background-image: url(../Media/images/RegisterArrowBG.png); 
-     width: 150px;position: relative;right: 670px;
-animation-name: RegisterAbove; animation-direction: alternate; animation-iteration-count: infinite; animation-duration: 3s; animation-timing-function: ease-in-out;}
+     background-color: black; 
+     width: 180px;position: relative; right: 680px;
+animation-name: RegisterAbove; animation-direction: alternate; 
+animation-iteration-count: infinite; animation-duration: 3s; animation-timing-function: ease-in-out;}
 
 @keyframes RegisterAbove {
      0%{transform: scale(0.5,0.5);}
 
-     100%{transform: scale(1.5,1.5);}
+     100%{transform: scale(1,1);}
      
 }
 
@@ -119,3 +120,71 @@ animation-name: RegisterAbove; animation-direction: alternate; animation-iterati
            .Bottomnav2:hover{transform: scale(1.1);}
            
             
+
+           @media screen and (max-width:425px) {
+         
+               nav ul{width: 220%;}
+               main{position: relative; right: 60px;}
+               .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
+               .PageWelcomeInfo:hover{width: 221%;}
+               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%;}
+               #TeamPhotoP{font-size: 150%;}
+               #BarcaVipArticle{position: relative; right: 205px;}
+
+               #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
+               #BarcaVipArticle:hover{ width: 86%;}
+               #BarcaStoryBox{font-size: 15%;}
+           
+               #RegisterUp{display: none;}
+               #Gender{font-size: 130%;}
+               #Submit{font-size: 130%;}  
+
+
+                   #FotterNav1 span{display: none;}
+               #FotterNav2 span{display: none;}
+           }
+                
+           
+
+/* 
+           @media screen and (max-width:768px) {
+         
+               nav ul{width: 220%;}
+               .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
+               .PageWelcomeInfo:hover{width: 221%;}
+               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%;}
+               #TeamPhotoP{font-size: 150%;}
+               #BarcaVipArticle{position: relative; right: 205px;}
+
+               #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
+               #BarcaVipArticle:hover{ width: 86%;}
+               #BarcaStoryBox{font-size: 15%;}
+           
+               #RegisterUp{text-align: center; width: 250px; font-size: 250%;position: relative; right: 240px;}
+
+                   #FotterNav1 span{display: none;}
+               #FotterNav2 span{display: none;}
+           }
+                
+           
+
+           @media screen and (max-width:1024px) {
+         
+               nav ul{width: 220%;}
+               .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
+               .PageWelcomeInfo:hover{width: 221%;}
+               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%;}
+               #TeamPhotoP{font-size: 150%;}
+               #BarcaVipArticle{position: relative; right: 205px;}
+
+               #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
+               #BarcaVipArticle:hover{ width: 86%;}
+               #BarcaStoryBox{font-size: 15%;}
+           
+               #RegisterUp{text-align: center; width: 250px; font-size: 250%;position: relative; right: 240px;}
+
+                   #FotterNav1 span{display: none;}
+               #FotterNav2 span{display: none;}
+           }
+                 */
+           
