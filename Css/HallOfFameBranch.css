@@ -127,6 +127,8 @@ width: 95%; height: 100%;
          
           #FotterNav1 {filter: saturate(2); position: relative; width: 111%;left: 50px;}
           #FotterNav2 {filter: saturate(2); position: relative;width: 111%; left: 50px;}
-      
+          #FotterNav1 span{font-weight: bolder; border-bottom: black solid 5px;}
+          #FotterNav2 span{font-weight: bolder; border-bottom: black solid 5px;}          
+
         
         }
