@@ -137,8 +137,8 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
                 .BottomImage:hover{width: 100%;}
                 #FotterNav1 {filter: saturate(2);}
                 #FotterNav2 {filter: saturate(2);}
-                #FotterNav1 span{font-size: 150%;font-weight: bolder; border-bottom: black solid 5px;}
-                #FotterNav2 span{font-size: 150%;font-weight: bolder; border-bottom: black solid 5px;}          
+                #FotterNav1 span{font-weight: bolder; border-bottom: black solid 5px;}
+                #FotterNav2 span{font-weight: bolder; border-bottom: black solid 5px;}          
 
               }
                 
