@@ -11,7 +11,7 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
 
  .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s; }
  .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;}
- .navliBlue a,.navliRed a {color: white; text-decoration:} 
+ .navliBlue a,.navliRed a {color: white; } 
 
 
  .navliRed:hover,.navliBlue:hover {border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
@@ -41,10 +41,10 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
 
 
 
-     #FotterNav1{position: relative;}
-     #FotterNav2{position: relative;}
+     #FotterNav1{position: relative;filter: saturate(4);}
+     #FotterNav2{position: relative;filter: saturate(4);}
      #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
-        justify-content: space-around;background-color: red; height: 60px; pos}
+        justify-content: space-around;background-color: red; height: 60px; }
         #FotterNav2{position: relative; bottom: 13.5px;}
         #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
               justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
@@ -62,4 +62,58 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
               .Bottomnav2:hover{transform: scale(1.1);}
               
                
-       
+       @media screen and (max-width:426px) and (min-width:0px){
+
+nav ul{width: 110%; position: relative; left: 35px;}
+
+         #VideosSection{position: relative; width: 100%; right:10px;}
+     #VideosArticle{position: relative;width: 100%;}
+     .BarcaVideos{position: relative; width: 40%; display: flex; flex-wrap: wrap;
+      flex-direction: column; align-items: center; right: 30px;}
+      .BarcaVideos p{position: relative; right:100px}
+     .BarcaVideo{position: relative; width: 100%; margin-bottom: 25px;}
+     
+     #FotterNav1 {filter: saturate(2);}
+     #FotterNav2 {filter: saturate(2);}
+     #FotterNav1 span{display: none;}
+     #FotterNav2 span{display: none;}
+     
+       }
+
+       @media screen and (max-width:769px) and (min-width:426px){
+
+         nav ul{width: 110%; position: relative; }
+         
+                  #VideosSection{position: relative; width: 110%; right:15px;}
+              #VideosArticle{position: relative;width: 100%;}
+              .BarcaVideos{position: relative; width: 45%; display: flex; flex-wrap: wrap;
+               flex-direction: column; align-items: center; right: 210px;}
+               .BarcaVideos p{position: relative; }
+              .BarcaVideo{position: relative; width: 100%;margin-bottom: 25px;}
+              
+              #FotterNav1 {filter: saturate(2);}
+              #FotterNav2 {filter: saturate(2);}
+              #FotterNav1 span{display: none;}
+              #FotterNav2 span{display: none;}
+              
+                }
+
+
+                @media screen and (max-width:1025px) and (min-width:769px){
+
+                  nav ul{width: 110%; position: relative; }
+                  
+                           #VideosSection{position: relative; width: 110%; left: 15px;}
+                       #VideosArticle{position: relative;width: 70%;}
+                       .BarcaVideos{position: relative; width: 45%; display: flex; flex-wrap: wrap;
+                        flex-direction: column; align-items: center; right: 200px;}
+                        .BarcaVideos p{position: relative; }
+                       .BarcaVideo{position: relative; width: 100%;margin-bottom: 75px;}
+        
+                       
+                       #FotterNav1 {filter: saturate(2);}
+                       #FotterNav2 {filter: saturate(2);}
+                       #FotterNav1 span{font-size: 150%;font-weight: bolder; border-bottom: black solid 5px;}
+                       #FotterNav2 span{font-size: 150%;font-weight: bolder; border-bottom: black solid 5px;}
+                       
+                         }

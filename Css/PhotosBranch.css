@@ -53,7 +53,7 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
       .SlideInImg1 {width: 32.27%;border:5px solid black; margin-bottom: 5px  ;}
       
       .BarcaPhotosNo2{ display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: space-around; align-content:center ; width: 100%;}
-      .SlideInImg2{width: 45%; border: solid 8px black; margin-bottom: 5px;transition: 1s ,width, ease-in-out;}
+      .SlideInImg2{width: 45%; border: solid 8px black; margin-bottom: 5px;transition: 1s ease-in-out;}
       .TopImage{transition: 1s;}
       .TopImage:hover{width: 452px;}
       .BottomImage{transition: 1s;}
@@ -63,7 +63,8 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
 
       #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
         justify-content: space-around;background-color: red; height: 60px;}
-        #FotterNav2{position: relative; bottom: 13.5px;}
+        #fotterNav1{filter: saturate(4);}
+        #FotterNav2{position: relative; bottom: 13.5px;filter: saturate(4);}
         #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
               justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
         
@@ -79,3 +80,66 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
               .Bottomnav1:hover{transform: scale(1.1);}
               .Bottomnav2:hover{transform: scale(1.1);}
       
+
+              @media screen and (max-width:426px) and (min-width:0px) {
+                
+            
+               .BarcaPhotosNo1{position: relative; width: 95%;}
+               .SlideInImg1{position: relative; width: 95%;}
+               .TopImage{position: relative;width: 100%;}
+               .BarcaPhotosNo2{position: relative; width: 95%;}
+               .SlideInImg2{position: relative; width: 95%;}
+               .BottomImage{position: relative;width: 100%;}
+               
+
+
+               .TopImage:hover{width: 100%;}
+               .BottomImage:hover{width: 100%;}
+               #FotterNav1 {filter: saturate(2);}
+               #FotterNav2 {filter: saturate(2);}
+               #FotterNav1 span{display: none;}
+               #FotterNav2 span{display: none;}
+               
+              }
+
+              @media screen and (max-width: 769px) and (min-width:426px) {
+
+
+                .BarcaPhotosNo1{position: relative; width: 95%;}
+                .SlideInImg1{position: relative; width: 95%;}
+                .TopImage{position: relative;width: 100%;}
+                .BarcaPhotosNo2{position: relative; width: 95%;}
+                .SlideInImg2{position: relative; width: 95%;}
+                .BottomImage{position: relative;width: 100%;}
+                
+ 
+                .TopImage:hover{width: 100%;}
+                .BottomImage:hover{width: 100%;}
+                #FotterNav1 {filter: saturate(2);}
+                #FotterNav2 {filter: saturate(2);}
+                #FotterNav1 span{display: none;}
+                #FotterNav2 span{display: none;}
+
+              }
+
+              @media screen and (max-width: 1025px) and (min-width:769px) {
+
+
+                .BarcaPhotosNo1{position: relative; width: 95%;}
+                .SlideInImg1{position: relative; width: 30%;}
+                .TopImage{position: relative;width: 100%;}
+                .BarcaPhotosNo2{position: relative; width: 100%;}
+                .SlideInImg2{position: relative; width: 45%;}
+                .BottomImage{position: relative;width: 100%;}
+                
+ 
+                .TopImage:hover{width: 100%;}
+                .BottomImage:hover{width: 100%;}
+                #FotterNav1 {filter: saturate(2);}
+                #FotterNav2 {filter: saturate(2);}
+                #FotterNav1 span{font-size: 150%;font-weight: bolder; border-bottom: black solid 5px;}
+                #FotterNav2 span{font-size: 150%;font-weight: bolder; border-bottom: black solid 5px;}          
+
+              }
+                
+              

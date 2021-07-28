@@ -103,7 +103,8 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
 
 #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
      justify-content: space-around;background-color: red; height: 60px;}
-     #FotterNav2{position: relative; bottom: 13.5px;}
+     #FotterNav1{filter: saturate(4);}
+     #FotterNav2{position: relative; bottom: 13.5px; filter: saturate(4);}
      #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
            justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
      
@@ -121,13 +122,13 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
            
             
 
-           @media screen and (max-width:425px) {
+           @media screen and (max-width:426px) and (min-width:10px) {
          
                nav ul{width: 220%;}
-               main{position: relative; right: 60px;}
+                main{position: relative; right: 60px; width: 95%;} 
                .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
                .PageWelcomeInfo:hover{width: 221%;}
-               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%;}
+               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%; position: relative;}
                #TeamPhotoP{font-size: 150%;}
                #BarcaVipArticle{position: relative; right: 205px;}
 
@@ -139,52 +140,63 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
                #Gender{font-size: 130%;}
                #Submit{font-size: 130%;}  
 
-
+               #FotterNav1 {filter: saturate(2);}
+               #FotterNav2 {filter: saturate(2);}
                    #FotterNav1 span{display: none;}
                #FotterNav2 span{display: none;}
            }
                 
            
 
-/* 
-           @media screen and (max-width:768px) {
+
+            @media screen and (max-width:768px) and (min-width:426px) {
          
-               nav ul{width: 220%;}
-               .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
-               .PageWelcomeInfo:hover{width: 221%;}
-               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%;}
-               #TeamPhotoP{font-size: 150%;}
-               #BarcaVipArticle{position: relative; right: 205px;}
+            nav ul{width: 220%;}
+            main{position: relative; right: 270px; width: 90%;}
+            .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
+            .PageWelcomeInfo:hover{width: 221%;}
+            #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 70%;height: 40%; }
+            #TeamPhotoP{font-size: 150%;}
+            #BarcaVipArticle{position: relative; right: 205px;}
 
-               #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
-               #BarcaVipArticle:hover{ width: 86%;}
-               #BarcaStoryBox{font-size: 15%;}
-           
-               #RegisterUp{text-align: center; width: 250px; font-size: 250%;position: relative; right: 240px;}
+            #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
+            #BarcaVipArticle:hover{ width: 86%;}
+            #BarcaStoryBox{font-size: 15%;}
+        
+            #RegisterUp{display: none;}
+            #Gender{font-size: 130%;}
+            #Submit{font-size: 130%;}  
 
-                   #FotterNav1 span{display: none;}
-               #FotterNav2 span{display: none;}
+            #FotterNav1 {filter: saturate(2);}
+            #FotterNav2 {filter: saturate(2);}
+                #FotterNav1 span{display: none;}
+            #FotterNav2 span{display: none;}
            }
                 
            
 
-           @media screen and (max-width:1024px) {
-         
-               nav ul{width: 220%;}
-               .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
-               .PageWelcomeInfo:hover{width: 221%;}
-               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%;}
-               #TeamPhotoP{font-size: 150%;}
-               #BarcaVipArticle{position: relative; right: 205px;}
+           @media screen and (max-width:1024px) and (min-width:769px) {
+            nav ul{width: 220%;}
+            
+            main{position: relative; right: 400px; width: 90%;}
+            .PageWelcomeInfo{width: 220%; ;position: relative; right: 205px; font-size: 280%;}
+            .PageWelcomeInfo:hover{width: 221%;}
+            #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 1000px; height: 650px;}
+            #TeamPhotoP{font-size: 150%;}
+            #BarcaVipArticle{position: relative; right: 205px;}
 
-               #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
-               #BarcaVipArticle:hover{ width: 86%;}
-               #BarcaStoryBox{font-size: 15%;}
-           
-               #RegisterUp{text-align: center; width: 250px; font-size: 250%;position: relative; right: 240px;}
+            #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
+            #BarcaVipArticle:hover{ width: 86%;}
+            #BarcaStoryBox{font-size: 15%;}
+        
+            #RegisterUp{display: none;}
+            #Gender{font-size: 130%;}
+            #Submit{font-size: 130%;}  
 
-                   #FotterNav1 span{display: none;}
-               #FotterNav2 span{display: none;}
+            #FotterNav1 {filter: saturate(2);}
+            #FotterNav2 {filter: saturate(2);}
+            #FotterNav1 span{font-size: 150%;font-weight: bolder; border-bottom: black solid 5px;}
+            #FotterNav2 span{font-size: 150%;font-weight: bolder; border-bottom: black solid 5px;}
            }
-                 */
-           
+                  
+            
