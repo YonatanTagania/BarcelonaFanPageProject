@@ -9,8 +9,10 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
   nav ul {display: flex; flex-wrap: wrap; height: 25px; }
  ul li {display: inline-block; text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;}
 
- .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s; }
- .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;}
+ .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s;    box-shadow: 2px 2px 13px 6px black;
+ }
+ .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;    box-shadow: 2px 2px 13px 6px black;
+ }
  .navliBlue a,.navliRed a {color: white; } 
 
 

@@ -4,15 +4,15 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
      background-size: contain;
      background-repeat: repeat;
 width: 100%;
-     }
-  #FotterNav1 span{font-weight: bolder; border-bottom: black solid 5px;}
-                #FotterNav2 span{font-weight: bolder; border-bottom: black solid 5px;}          
+     }          
 /* הגדרות נאב,כולל טרנזישן בריחוף מעל קישור ספציפי */
    nav ul {display: flex; flex-wrap: wrap; height: 25px; }
   ul li {display: inline-block; text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;}
 
-  .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s; }
-  .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;}
+  .navliRed{flex-basis: 23%; background: rgba(255, 0, 0, 0.650);color: white;transition: 1s;    box-shadow: 2px 2px 13px 6px black;
+  }
+  .navliBlue{flex-basis: 23%; background: rgba(0, 0, 255, 0.650);color: white;transition: 1s;    box-shadow: 2px 2px 13px 6px black;
+  }
   .navliBlue a,.navliRed a {color: white; text-decoration: none;} 
 
 
@@ -111,12 +111,12 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
      #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
            justify-content: space-around; background-color: blue; height: 60px; align-items: center;}
      
-           .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-right: solid black 2px;border-left: solid black 2px; transition: 1s;}
+           .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-radius: 15px ;border-left: 3.5px solid black ; transition: 1s; border-right: solid black 3.5px; border-top: 3.5px solid black; border-bottom:  solid black 3.5px; }
      
-           .Bottomnav2{flex-basis: 30%;font-weight: bolder; border-right: solid black 2px; border-left: solid black 2px; transition: 1s;}
+           .Bottomnav2{flex-basis: 30%;font-weight: bolder; border-radius: 15px ;border-left: 5px solid black ; transition: 1s; border-right: solid black 5px; border-top: 5px solid black; border-bottom:  solid black 5px; }
       
-           .Bottomnav2 a{color: white;}
-               
+  #FotterNav1 span{font-weight: bolder;}
+  #FotterNav2 span{font-weight: bolder;}
            .Footer1Img{position: relative; top: 11px;transition: 1s;}
            .Footer2Img{position: relative; top: 10px;transition: 1s;}
           
@@ -131,7 +131,7 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
                 main{position: relative; right: 60px; width: 95%;} 
                .PageWelcomeInfo{width: 220%;position: relative; right: 53%; font-size: 280%;}
                .PageWelcomeInfo:hover{width: 221%;}
-               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%; position: relative;}
+               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%;}
                #TeamPhotoP{font-size: 150%;}
                #BarcaVipArticle{position: relative; right: 53%;}
 
@@ -145,8 +145,8 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
 
                #FotterNav1 {filter: saturate(2);}
                #FotterNav2 {filter: saturate(2);}
-                   #FotterNav1 span{display: none;}
-               #FotterNav2 span{display: none;}
+               #FotterNav1 span{display: none;}
+            #FotterNav2 span{display: none;}
            }
          
             @media screen  and (max-width:768px) and (min-width:427px){
@@ -155,7 +155,7 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
             main{position: relative; right: 270px; width: 90%;}
             .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
             .PageWelcomeInfo:hover{width: 221%;}
-            #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 70%;height: 40%; }
+            #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 70%; }
             #TeamPhotoP{font-size: 150%;}
             #BarcaVipArticle{position: relative; right: 205px;}
 
@@ -181,7 +181,7 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
             main{position: relative; right: 400px; width: 90%;}
             .PageWelcomeInfo{width: 220%; ;position: relative; right: 205px; font-size: 280%;}
             .PageWelcomeInfo:hover{width: 221%;}
-            #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 1000px; height: 650px;}
+            #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 40%;}
             #TeamPhotoP{font-size: 150%;}
             #BarcaVipArticle{position: relative; right: 205px;}
 
@@ -194,9 +194,7 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
             #Submit{font-size: 130%;}  
 
             #FotterNav1 {filter: saturate(2);}
-            #FotterNav2 {filter: saturate(2);}
-            #FotterNav1 span{font-weight: bolder; border-bottom: black solid 5px;}
-            #FotterNav2 span{font-weight: bolder; border-bottom: black solid 5px;}          
+            #FotterNav2 {filter: saturate(2);}        
 
            }
                   
