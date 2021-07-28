@@ -5,7 +5,9 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
      background-repeat: repeat;
 width: 100%;
      }
-
+  #FotterNav1 span{font-weight: bolder; border-bottom: black solid 5px;}
+                #FotterNav2 span{font-weight: bolder; border-bottom: black solid 5px;}          
+/* הגדרות נאב,כולל טרנזישן בריחוף מעל קישור ספציפי */
    nav ul {display: flex; flex-wrap: wrap; height: 25px; }
   ul li {display: inline-block; text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;}
 
@@ -16,6 +18,7 @@ width: 100%;
 
   .navliRed:hover,.navliBlue:hover {border:  solid black 3px ;transform: scale(1.1); text-decoration: underline;}
   
+  /* לוגו בראש הדף, עם אפקט מעבר במקום */
      #BarcaLogoImg{transition: ease-in-out 3s;}
       #BarcaLogoImg:hover{transform: rotateZ(360deg);}
       
@@ -122,7 +125,7 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
            
             
 
-           @media screen and (max-width:413px) and (min-width:0px) {
+           @media screen  and (max-width:426px) and  (min-width:0px){
          
                nav ul{width: 220%;}
                 main{position: relative; right: 60px; width: 95%;} 
@@ -145,37 +148,8 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
                    #FotterNav1 span{display: none;}
                #FotterNav2 span{display: none;}
            }
-           @media screen and (max-width:426px) and (min-width:414px) {
          
-               nav ul{width: 220%;}
-                main{position: relative; right: 60px; width: 95%;} 
-               .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
-               .PageWelcomeInfo:hover{width: 221%;}
-               #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%; position: relative;}
-               #TeamPhotoP{font-size: 150%;}
-               #BarcaVipArticle{position: relative; right: 205px;}
-
-               #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
-               #BarcaVipArticle:hover{ width: 86%;}
-               #BarcaStoryBox{font-size: 15%;}
-           
-               #RegisterUp{display: none;}
-               #Gender{font-size: 130%;}
-               #Submit{font-size: 130%;}  
-
-               #FotterNav1 {filter: saturate(2);}
-               #FotterNav2 {filter: saturate(2);}
-                   #FotterNav1 span{display: none;}
-               #FotterNav2 span{display: none;}
-           }
-                
-           
-           
-
-
-
-
-            @media screen and (max-width:768px) and (min-width:427px) {
+            @media screen  and (max-width:768px) and (min-width:427px){
          
             nav ul{width: 220%;}
             main{position: relative; right: 270px; width: 90%;}
@@ -201,7 +175,7 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
                 
            
 
-           @media screen and (max-width:1024px) and (min-width:769px) {
+           @media screen and (max-width:1025px) and  (min-width:769px) {
             nav ul{width: 220%;}
             
             main{position: relative; right: 400px; width: 90%;}

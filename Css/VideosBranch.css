@@ -62,7 +62,7 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
               .Bottomnav2:hover{transform: scale(1.1);}
               
                
-       @media screen and (max-width:413px) and (min-width:0px){
+              @media screen and (min-width:0px) and (max-width:426px){
 
 nav ul{width: 110%; position: relative; left: 35px;}
 
@@ -80,26 +80,9 @@ nav ul{width: 110%; position: relative; left: 35px;}
      
        }
 
-       @media screen and (max-width:426px) and (min-width:414px){
-
-        nav ul{width: 110%; position: relative; left: 35px;}
-        
-                 #VideosSection{position: relative; width: 100%; right:10px;}
-             #VideosArticle{position: relative;width: 100%;}
-             .BarcaVideos{position: relative; width: 40%; display: flex; flex-wrap: wrap;
-              flex-direction: column; align-items: center; right: 30px;}
-              .BarcaVideos p{position: relative; right:100px}
-             .BarcaVideo{position: relative; width: 100%; margin-bottom: 25px;}
-             
-             #FotterNav1 {filter: saturate(2);}
-             #FotterNav2 {filter: saturate(2);}
-             #FotterNav1 span{display: none;}
-             #FotterNav2 span{display: none;}
-             
-               }
         
 
-       @media screen and (max-width:769px) and (min-width:427px){
+               @media screen  and (min-width:427px) and (max-width:769px){
 
          nav ul{width: 110%; position: relative; }
          
@@ -118,7 +101,7 @@ nav ul{width: 110%; position: relative; left: 35px;}
                 }
 
 
-                @media screen and (max-width:1025px) and (min-width:769px){
+                @media screen and (min-width:770px) and (max-width:1026px) {
 
                   nav ul{width: 110%; position: relative; }
                   
