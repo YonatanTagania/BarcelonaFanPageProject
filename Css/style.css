@@ -126,11 +126,11 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
          
                nav ul{width: 220%;}
                 main{position: relative; right: 60px; width: 95%;} 
-               .PageWelcomeInfo{width: 220%;position: relative; right: 205px; font-size: 280%;}
+               .PageWelcomeInfo{width: 220%;position: relative; right: 53%; font-size: 280%;}
                .PageWelcomeInfo:hover{width: 221%;}
                #BarcaTeamPhoto,#BarcaTeamPhoto2{width: 90%; position: relative;}
                #TeamPhotoP{font-size: 150%;}
-               #BarcaVipArticle{position: relative; right: 205px;}
+               #BarcaVipArticle{position: relative; right: 53%;}
 
                #BarcaVipArticle{position: relative; font-size: 180%; height: 80%; font-size: 210%; width: 170%;}
                #BarcaVipArticle:hover{ width: 86%;}
