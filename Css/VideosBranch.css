@@ -26,7 +26,7 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
         width: 100%; }
 
 
-     #BarcaVideosHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: white;background:linear-gradient(to left,blue,red) ; margin-bottom: 15px;align;}
+     #BarcaVideosHeader{text-decoration: underline; font-weight: bolder;color: white;background:linear-gradient(to left,blue,red) ; margin-bottom: 15px;font-family: 'Palette Mosaic', cursive;}
 
      .VideosArea  {background-color: rgba(255, 235, 205, 0.37);  ;align-content: center;justify-content: center;
     font-size: 18px; text-align: center; width:75%; height: 50%;
@@ -39,7 +39,7 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
 
      .BarcaVideos{width: 100%;  height: 100%;  display: flex; flex-direction: row; justify-content: space-around;}
      .BarcaVideo{width: 30%;}
-     .BarcaVideo p{color: white;background-color:rgba(0, 0, 0, 0.750);margin-bottom: -1px;}
+     .BarcaVideo p{color: white;background-color:rgba(0, 0, 0, 0.750);margin-bottom: -1px;font-family: 'Open Sans Condensed', sans-serif;}
 
 
 
@@ -49,7 +49,7 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
       #FotterNav1{filter: saturate(4);}
       #FotterNav2{position: relative; bottom: 13.5px; filter: saturate(4);}
       #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
-            justify-content: space-around; background-color: grey; height: 60px; align-items: center;}
+            justify-content: space-around; background-color: grey; height: 60px;}
       
             .Bottomnav1{flex-basis: 23%;font-weight: bolder; border-radius: 15px ;border-left: 3.5px solid red ; transition: 1s; border-right: solid blue 3.5px; border-top: 3.5px solid red; border-bottom:  solid blue 3.5px;}
          

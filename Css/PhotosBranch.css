@@ -29,15 +29,16 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
     position: relative;
    }
 
+
+
+#BarcaPhotosHeader{text-decoration: underline; font-weight: bolder;color: white;background:linear-gradient(to left,blue,red);font-family: 'Palette Mosaic', cursive;}
+   
+
    .BarcaPhotosNo1 ,.BarcaPhotosNo2 {animation-name: SlideIn; animation-duration:1s; animation-timing-function: ease-in-out;}
 @keyframes SlideIn {
     from {filter: blur(500px);width: 1%; height: 1%;}
     to {filter: blur(0);width: 100%;height: 1%;}
 }
-
-
-#BarcaPhotosHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: white;background:linear-gradient(to left,blue,red);}
-   
 
 
 .ImagesArea  {background-color: rgba(255, 235, 205, 0.37);  ;align-content: center;justify-content: center;
@@ -49,14 +50,14 @@ body{ background-image: url(../Media/images/BarcaCoverPhoto.jpg);
      .ImagesArea:hover{ font-size: 18px;filter: saturate(100%);height: 100%;position: relative; width: 93%;}
      
 
-      #WelcomeTextPhotos{font-weight: bolder;color: white;background-color: black; height: 30px; animation-duration: 5s;}
+      #WelcomeTextPhotos{font-weight: bolder;color: white;background-color: black; height: 30px; animation-duration: 5s;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
       .BarcaPhotosNo1{display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: space-around; align-content:center ; width: 100%;}
       .SlideInImg1 {width: 32.27%;border:5px solid black; margin-bottom: 5px  ;}
-      .SlideInImg1 p{margin-bottom: -3px;}
+      .SlideInImg1 p{margin-bottom: -3px;font-family: 'Open Sans Condensed', sans-serif;}
       .BarcaPhotosNo2{ display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: space-around; align-content:center ; width: 100%;}
       .SlideInImg2{width: 45%; border: solid 8px black; margin-bottom: 5px;transition: 1s ease-in-out;}
-     .SlideInImg2 p{margin-bottom: -2px;}
+     .SlideInImg2 p{margin-bottom: -2px;font-family: 'Open Sans Condensed', sans-serif;}
       .TopImage{transition: 1s;}
       .TopImage:hover{width: 452px;}
       .BottomImage{transition: 1s;}

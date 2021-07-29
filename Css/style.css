@@ -31,12 +31,12 @@ width: 100%;
  .PageWelcomeInfo  {position: relative ;
       font-size: 18px; text-align: center; width: 50%; 
        transition: 1s ease-in-out; background-image: url(../Media/images/FansWithFlags.jpg);}
- #BarcaFirstHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: white;background:linear-gradient(to left,blue,red)}
+ #BarcaFirstHeader{text-decoration: underline; font-family: sans-serif; font-weight: bolder;color: white;background:linear-gradient(to left,blue,red);font-family: 'Bebas Neue', cursive;}
 #TeamPhotoP{font-size: 16px; background:linear-gradient(to bottom,red,blue); margin-bottom: -16px;}
  .PageWelcomeInfo:hover{transform: scale(1.03); font-size: 22px; width: 70%; height: 100%;}
- #WelcomeText{font-weight: bolder;color: white;background:linear-gradient(to right,red,blue);}
+ #WelcomeText{font-weight: bolder;color: white;background:linear-gradient(to right,red,blue);font-family: 'Bebas Neue', cursive;}
 
-#TeamPhotoP{background-color: black;color: white;margin-bottom: -px;}
+#TeamPhotoP{background-color: black;color: white;margin-bottom:-18px;font-family: 'Bebas Neue', cursive;}
  
  
  #BarcaTeamPhoto{position: absolute; animation-name: fadingphotos;
@@ -75,8 +75,8 @@ height: 100%; transition: 1s linear;
        #BarcaVipArticle:hover {transform: scale(1.03); font-size: 22px;filter: saturate(90%); height: 100%; position: relative;}
 
        #HoverBackGroundArea {background-color: rgba(0, 0, 0, 0.5);}
-       #HoverBackGroundArea p{color: white; background-color: rgba(0, 0, 0, 0.650); border: solid black 3px;}
-       #HoverBackGroundArea form label{color: white;background-color:rgba(0, 0, 0, 0.650); border: black solid 3px;}
+       #HoverBackGroundArea p{color: white; background-color: rgba(0, 0, 0, 0.650); border: solid black 3px;font-family: 'Bebas Neue', cursive;}
+       #HoverBackGroundArea form label{color: white;background-color:rgba(0, 0, 0, 0.650); border: black solid 3px;font-family: sans-serif;}
       
 
 
@@ -106,8 +106,8 @@ animation-iteration-count: infinite; animation-duration: 3s; animation-timing-fu
 
 #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
      justify-content: space-around;background-color: grey; height: 60px;}
-     #FotterNav1{filter: saturate(4);}
-     #FotterNav2{position: relative; bottom: 13.5px; filter: saturate(4);}
+     #FotterNav1{filter: saturate(4);position: relative;width: 99%;}
+     #FotterNav2{position: relative; bottom: 13.5px; filter: saturate(4);width: 99%;}
      #FotterNav2 ul{display: flex; flex-direction: row; flex-wrap: wrap;
            justify-content: space-around; background-color: grey; height: 60px; align-items: center;}
      
